@@ -1,0 +1,36 @@
+h1 {
+  font-family: 'Dosis', 'Helvetica Neue', 'Arial', sans-serif;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Dosis', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+div, p, span {
+  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+.Menu {
+  padding: 8px 32px;
+  background-color: #9E4770;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.MenuIcon {
+  height: 48px;
+  width: 48px;
+}
+
+.Content {
+  margin: 0 32px 32px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.InnerContent {
+  max-width: 1200px;
+}

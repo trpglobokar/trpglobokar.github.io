@@ -1,0 +1,32 @@
+.ProjectWrapper {
+  margin-bottom: 32px;
+}
+
+.Title {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.ImageWrapper {
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.DescriptionWrapper {
+  margin-bottom: 12px;
+}
+
+.ExtraInfoWrapper {
+  font-size: 0.75rem;
+  margin-bottom: 16px;
+}
+
+.DemoCodeWrapper {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}

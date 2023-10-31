@@ -1,0 +1,17 @@
+.MenuLink {
+  color: white;
+  text-decoration: none;
+  padding: 4px 0 3px 0;
+  font-family: "Dosis";
+  font-size: 1.2rem;
+  border-bottom: 1px solid transparent;
+}
+
+.ActiveMenuLink {
+  color: white;
+  text-decoration: none;
+  padding: 4px 0 3px 0;
+  font-family: "Dosis";
+  font-size: 1.2rem;
+  border-bottom: 1px solid #fff;
+}
