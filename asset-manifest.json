@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.27286882.css",
-    "main.js": "/static/js/main.2fb07433.js",
+    "main.js": "/static/js/main.7bd2fdc7.js",
+    "static/media/habit-calendar-maker.jpg": "/static/media/habit-calendar-maker.22f5fc7932a5a20da0b7.jpg",
     "static/media/profile.jpg": "/static/media/profile.00899cd993723c10111e.jpg",
     "static/media/poketypes.jpg": "/static/media/poketypes.750fdb09782b22fe17af.jpg",
     "static/media/movie-picker.jpg": "/static/media/movie-picker.30782c75d1cb257e7109.jpg",
     "static/media/water-world.jpg": "/static/media/water-world.42dd26a860cdfc191ee8.jpg",
     "index.html": "/index.html",
     "main.27286882.css.map": "/static/css/main.27286882.css.map",
-    "main.2fb07433.js.map": "/static/js/main.2fb07433.js.map"
+    "main.7bd2fdc7.js.map": "/static/js/main.7bd2fdc7.js.map"
   },
   "entrypoints": [
     "static/css/main.27286882.css",
-    "static/js/main.2fb07433.js"
+    "static/js/main.7bd2fdc7.js"
   ]
 }
