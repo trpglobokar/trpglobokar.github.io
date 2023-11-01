@@ -45,7 +45,7 @@ const ProjectItem: React.FunctionComponent<ProjectItemProps> = ({
           </div>
           <div className="DemoCodeWrapper">
             <Link href={demoURL} target="_blank" rel="noopener">
-              <Button variant="outlined" color="secondary">
+              <Button variant="outlined" color="primary">
                 Live Example
               </Button>
             </Link>

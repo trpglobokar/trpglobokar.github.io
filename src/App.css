@@ -12,16 +12,18 @@ div, p, span {
 }
 
 .Menu {
-  padding: 8px 32px;
+  padding: 0px 32px;
   background-color: #9E4770;
   display: flex;
   gap: 24px;
   align-items: center;
+  color: #FBFBFB;
 }
 
 .MenuIcon {
-  height: 48px;
-  width: 48px;
+  height: 32px;
+  width: 32px;
+  padding: 4px;
 }
 
 .Content {

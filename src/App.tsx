@@ -1,24 +1,26 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
 
 import About from "./About";
-import Layout from "./Layout";
 import Projects from "./Projects";
 
 import "./fonts.css";
+import "./App.css";
 
 const outerTheme = createTheme({
   palette: {
     primary: {
       // light: will be calculated from palette.primary.main,
-      main: "#2E2532",
+      main: "#9E4770",
       // dark: will be calculated from palette.primary.main,
       // contrastText: will be calculated to contrast with palette.primary.main
     },
     secondary: {
-      light: "#0066ff",
-      main: "#9E4770",
+      // light: will be calculated from palette.primary.main,
+      main: "#FBFBFB",
       // dark: will be calculated from palette.secondary.main,
       contrastText: "#FBFBFB",
     },
@@ -40,17 +42,36 @@ const outerTheme = createTheme({
 });
 
 const App: React.FunctionComponent = () => {
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
+    setValue(newValue);
+  };
+
+  const contentToRender = value === 0 ? <Projects /> : <About />;
+
   return (
     <ThemeProvider theme={outerTheme}>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Projects />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="about" element={<About />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <nav className="Menu">
+        <img
+          className="MenuIcon"
+          src={require("./static/pig-icon.png")}
+          alt="Logo of a pig"
+        />
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          aria-label="navigation menu"
+          textColor="inherit"
+          indicatorColor="secondary"
+        >
+          <Tab label="Projects" />
+          <Tab label="About" />
+        </Tabs>
+      </nav>
+      <div className="Content">
+        <div className="InnerContent">{contentToRender}</div>
+      </div>
     </ThemeProvider>
   );
 };
