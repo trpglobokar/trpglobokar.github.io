@@ -16,6 +16,14 @@ export const projects: Project[] = [
     repoName: "movie-picker",
   },
   {
+    title: "Habit Calendar Maker",
+    conceptsExplored: "User Customization, State Management",
+    techUsed: "React, Typescript, Redux",
+    description:
+      "Creates a customizable, printable calendar for tracking habits and/or chores.",
+    repoName: "habit-calendar-maker",
+  },
+  {
     title: "PokeTypes",
     conceptsExplored: "Visualization, Data Manipulation",
     techUsed: "d3, JSON, React, Styled Components",
