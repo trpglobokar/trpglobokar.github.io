@@ -32,9 +32,9 @@ const ProjectItem: React.FunctionComponent<ProjectItemProps> = ({
           />
         </Grid>
         <Grid item xs={12} sm={5}>
-          <div className="DescriptionWrapper">
+          <p className="DescriptionWrapper">
             <b>Description:</b> {description}
-          </div>
+          </p>
           <div className="ExtraInfoWrapper">
             <div>
               <b>Concepts Explored:</b> {conceptsExplored}

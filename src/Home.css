@@ -1,0 +1,26 @@
+.HomeWrapper {
+  width: 100%;
+  height: calc(100vh - 48px);
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.HomeText h1 {
+  margin-bottom: 0;
+}
+
+.HomeText .TagLine{
+  font-size: 1.8rem;
+  max-width: 500px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 82px;
+  color: #666;
+}
+
+.SVGWrapper {
+  flex-grow: 1;
+  width: 100%;
+}

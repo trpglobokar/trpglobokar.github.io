@@ -5,6 +5,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 
 import About from "./About";
+import Home from "./Home";
 import Projects from "./Projects";
 
 import "./fonts.css";
@@ -48,7 +49,19 @@ const App: React.FunctionComponent = () => {
     setValue(newValue);
   };
 
-  const contentToRender = value === 0 ? <Projects /> : <About />;
+  const ContentToRender = [
+    <Home />,
+    <div className="Content">
+      <div className="InnerContent">
+        <Projects />
+      </div>
+    </div>,
+    <div className="Content">
+      <div className="InnerContent">
+        <About />
+      </div>
+    </div>,
+  ];
 
   return (
     <ThemeProvider theme={outerTheme}>
@@ -64,14 +77,14 @@ const App: React.FunctionComponent = () => {
           aria-label="navigation menu"
           textColor="inherit"
           indicatorColor="secondary"
+          style={{ fontSize: "2rem" }}
         >
+          <Tab label="Home" />
           <Tab label="Projects" />
           <Tab label="About" />
         </Tabs>
       </nav>
-      <div className="Content">
-        <div className="InnerContent">{contentToRender}</div>
-      </div>
+      {ContentToRender[value]}
     </ThemeProvider>
   );
 };

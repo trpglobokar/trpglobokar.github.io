@@ -4,6 +4,8 @@ import ProjectItem from "./ProjectItem";
 
 import { projects } from "./static/projectList";
 
+import "./Projects.css";
+
 const Projects: React.FunctionComponent = () => {
   const projectItems = projects.map((project, id) => (
     <ProjectItem key={id} project={project} />
@@ -12,7 +14,7 @@ const Projects: React.FunctionComponent = () => {
   return (
     <div>
       <h1>Projects</h1>
-      {projectItems}
+      <div className="project-list-wrapper">{projectItems}</div>
     </div>
   );
 };

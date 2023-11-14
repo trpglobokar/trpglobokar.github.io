@@ -1,5 +1,5 @@
 .ProjectWrapper {
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 .Title {
@@ -17,16 +17,20 @@
 }
 
 .DescriptionWrapper {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .ExtraInfoWrapper {
-  font-size: 0.75rem;
-  margin-bottom: 16px;
+  font-size: 0.9rem;
+  margin-bottom: 24px;
 }
 
 .DemoCodeWrapper {
   display: flex;
   gap: 24px;
   align-items: center;
+}
+
+.DemoCodeWrapper .MuiButtonBase-root {
+  font-size: 1.2rem;
 }

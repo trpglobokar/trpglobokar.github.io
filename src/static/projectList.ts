@@ -8,20 +8,20 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Movie Picker",
-    conceptsExplored: "RESTful API, User Selections, State Management",
-    techUsed: "React, Material UI, Styled Components",
-    description:
-      'Queries themoviedb.org for a list of user selected movies, then allows said user to filter movies by site rating and genre. If user still cannot decide what to watch, a "Choose for Me" button selects one movie from remaining valid movies.',
-    repoName: "movie-picker",
-  },
-  {
     title: "Habit Calendar Maker",
     conceptsExplored: "User Customization, State Management",
     techUsed: "React, Typescript, Redux",
     description:
       "Creates a customizable, printable calendar for tracking habits and/or chores.",
     repoName: "habit-calendar-maker",
+  },
+  {
+    title: "Movie Picker",
+    conceptsExplored: "RESTful API, User Selections, State Management",
+    techUsed: "React, Material UI, Styled Components",
+    description:
+      'Queries themoviedb.org for a list of user selected movies, then allows said user to filter movies by site rating and genre. If user still cannot decide what to watch, a "Choose for Me" button selects one movie from remaining valid movies.',
+    repoName: "movie-picker",
   },
   {
     title: "PokeTypes",
