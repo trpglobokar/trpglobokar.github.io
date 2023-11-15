@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e8d65ce.css",
-    "main.js": "/static/js/main.e9a5e786.js",
+    "main.css": "/static/css/main.4b96715d.css",
+    "main.js": "/static/js/main.4cdcf07a.js",
     "static/media/habit-calendar-maker.jpg": "/static/media/habit-calendar-maker.22f5fc7932a5a20da0b7.jpg",
     "static/media/profile.jpg": "/static/media/profile.00899cd993723c10111e.jpg",
     "static/media/poketypes.jpg": "/static/media/poketypes.750fdb09782b22fe17af.jpg",
@@ -9,11 +9,11 @@
     "static/media/water-world.jpg": "/static/media/water-world.42dd26a860cdfc191ee8.jpg",
     "static/media/splash.svg": "/static/media/splash.71549751822465c4ac5028a386e66bde.svg",
     "index.html": "/index.html",
-    "main.5e8d65ce.css.map": "/static/css/main.5e8d65ce.css.map",
-    "main.e9a5e786.js.map": "/static/js/main.e9a5e786.js.map"
+    "main.4b96715d.css.map": "/static/css/main.4b96715d.css.map",
+    "main.4cdcf07a.js.map": "/static/js/main.4cdcf07a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e8d65ce.css",
-    "static/js/main.e9a5e786.js"
+    "static/css/main.4b96715d.css",
+    "static/js/main.4cdcf07a.js"
   ]
 }
