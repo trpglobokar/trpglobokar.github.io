@@ -1,25 +1,3 @@
-h1, h2, h3 {
-  font-family: 'Dosis', 'Helvetica Neue', 'Arial', sans-serif;
-}
-h1 {
-  text-align: center;
-  font-size: 3rem;
-}
-h2 {
-  font-size: 2rem;
-}
-
-div, p, span {
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
-}
-
-p {
-  margin-top: 0px;
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-  text-align: justify;
-}
-
 .Menu {
   padding: 0px 32px;
   background-color: #9E4770;
@@ -35,8 +13,8 @@ p {
   padding: 4px;
 }
 
-.Menu .MuiTab-root {
-  font-size: 1.2rem;
+.Menu .MuiTabs-root button {
+  font-size: 1.35rem;
 }
 
 .Content {
@@ -48,4 +26,15 @@ p {
 
 .InnerContent {
   max-width: 1200px;
+}
+
+@media screen and (max-width: 480px) {
+  .Menu {
+    padding: 0px 12px;
+    gap: 8px;
+  }
+
+  .Menu .MuiTabs-root button {
+    font-size: 1rem;
+  }
 }

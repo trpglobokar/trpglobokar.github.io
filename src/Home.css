@@ -1,10 +1,14 @@
 .HomeWrapper {
   width: 100%;
-  height: calc(100vh - 48px);
+  height: calc(100vh - 51px);
   display: flex;
   flex-direction: column;
   justify-content: stretch;
   align-items: center;
+}
+
+.HomeText {
+  padding: 0 16px;
 }
 
 .HomeText h1 {
@@ -23,4 +27,10 @@
 .SVGWrapper {
   flex-grow: 1;
   width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .HomeWrapper {
+    height: calc(100vh - 48px);
+  }
 }

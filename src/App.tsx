@@ -77,7 +77,6 @@ const App: React.FunctionComponent = () => {
           aria-label="navigation menu"
           textColor="inherit"
           indicatorColor="secondary"
-          style={{ fontSize: "2rem" }}
         >
           <Tab label="Home" />
           <Tab label="Projects" />
